@@ -4,6 +4,8 @@ import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
+import static org.example.App.fizzBuzz;
+
 /**
  * Unit test for simple App.
  */
@@ -34,5 +36,9 @@ public class AppTest
     public void testApp()
     {
         assertTrue( true );
+    }
+
+    public void testFizzBuzz() {
+        assertEquals("Fizz", fizzBuzz(3));
     }
 }
