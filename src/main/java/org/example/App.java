@@ -24,6 +24,6 @@ public class App
             return "Buzz";
         }
 
-        return "";
+        return String.valueOf(input);
     }
 }
