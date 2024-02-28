@@ -12,7 +12,7 @@ public class App
     }
 
     public static String fizzBuzz(int input) {
-        if (input == 3) {
+        if (input % 3 == 0) {
             return "Fizz";
         }
 
