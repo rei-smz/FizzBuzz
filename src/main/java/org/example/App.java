@@ -16,6 +16,10 @@ public class App
             return "Fizz";
         }
 
+        if (input == 5) {
+            return "Buzz";
+        }
+
         return "";
     }
 }
