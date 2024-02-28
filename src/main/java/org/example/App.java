@@ -12,6 +12,10 @@ public class App
     }
 
     public static String fizzBuzz(int input) {
+        if (input == 3) {
+            return "Fizz";
+        }
+
         return "";
     }
 }
