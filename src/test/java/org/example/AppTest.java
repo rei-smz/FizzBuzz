@@ -44,5 +44,6 @@ public class AppTest
         assertEquals("Buzz", fizzBuzz(5));
         assertEquals("Buzz", fizzBuzz(10));
         assertEquals("FizzBuzz", fizzBuzz(15));
+        assertEquals("1", fizzBuzz(1));
     }
 }
